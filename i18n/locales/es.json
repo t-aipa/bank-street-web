@@ -1,0 +1,56 @@
+{
+  "common": {
+    "navigation": {
+      "station": "Estación",
+      "store": "Tienda",
+      "atlas": "Atlas",
+      "settings": "Ajustes"
+    },
+    "actions": {
+      "quickTransfer": "Transferencia Rápida",
+      "viewAll": "Ver Todo",
+      "clearAll": "Borrar Todo",
+      "save": "Guardar",
+      "cancel": "Cancelar"
+    }
+  },
+  "bankStation": {
+    "title": "Estación Bancaria",
+    "accounts": {
+      "checking": {
+        "title": "Cuenta Corriente",
+        "balance": "Saldo Disponible"
+      },
+      "credit": {
+        "title": "Tarjeta de Crédito",
+        "balance": "Saldo Actual"
+      },
+      "savings": {
+        "title": "Cuenta de Ahorro",
+        "balance": "Ahorros Totales"
+      }
+    }
+  },
+  "productLines": {
+    "credit": {
+      "name": "Calle Tarjeta de Crédito",
+      "description": "Explore tarjetas premium con recompensas exclusivas"
+    },
+    "mortgage": {
+      "name": "Avenida Hipotecaria",
+      "description": "Encuentre su solución hipotecaria perfecta"
+    },
+    "savings": {
+      "name": "Círculo de Ahorros",
+      "description": "Haga crecer su riqueza con cuentas de alto rendimiento"
+    },
+    "business": {
+      "name": "Distrito Empresarial",
+      "description": "Soluciones bancarias completas para negocios"
+    },
+    "investment": {
+      "name": "Cruce de Inversiones",
+      "description": "Opciones inteligentes de inversión para su futuro"
+    }
+  }
+}

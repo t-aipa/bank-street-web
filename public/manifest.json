@@ -1,0 +1,39 @@
+{
+  "name": "Bank Street",
+  "short_name": "Bank St",
+  "description": "Modern banking platform with metro-inspired design",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#009BBF",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Quick Transfer",
+      "short_name": "Transfer",
+      "description": "Make a quick transfer",
+      "url": "/bank-station?action=transfer",
+      "icons": [{ "src": "/icons/transfer.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Find ATM",
+      "short_name": "ATM",
+      "description": "Find nearest ATM",
+      "url": "/bank-atlas?view=atm",
+      "icons": [{ "src": "/icons/atm.png", "sizes": "192x192" }]
+    }
+  ]
+}

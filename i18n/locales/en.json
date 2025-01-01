@@ -1,0 +1,56 @@
+{
+  "common": {
+    "navigation": {
+      "station": "Station",
+      "store": "Store",
+      "atlas": "Atlas",
+      "settings": "Settings"
+    },
+    "actions": {
+      "quickTransfer": "Quick Transfer",
+      "viewAll": "View All",
+      "clearAll": "Clear All",
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "bankStation": {
+    "title": "Bank Station",
+    "accounts": {
+      "checking": {
+        "title": "Checking Account",
+        "balance": "Available Balance"
+      },
+      "credit": {
+        "title": "Credit Card",
+        "balance": "Current Balance"
+      },
+      "savings": {
+        "title": "Savings Account",
+        "balance": "Total Savings"
+      }
+    }
+  },
+  "productLines": {
+    "credit": {
+      "name": "Credit Card Street",
+      "description": "Explore premium credit cards with exclusive rewards"
+    },
+    "mortgage": {
+      "name": "Mortgage Avenue",
+      "description": "Find your perfect home loan solution"
+    },
+    "savings": {
+      "name": "Savings Circle",
+      "description": "Grow your wealth with high-yield accounts"
+    },
+    "business": {
+      "name": "Business District",
+      "description": "Complete business banking solutions"
+    },
+    "investment": {
+      "name": "Investment Junction",
+      "description": "Smart investment options for your future"
+    }
+  }
+}

@@ -12,7 +12,9 @@
     "test:coverage": "jest --coverage",
     "cypress": "cypress open",
     "cypress:run": "cypress run",
-    "test:e2e": "start-server-and-test dev http://localhost:3000 cypress:run"
+    "test:e2e": "start-server-and-test dev http://localhost:3000 cypress:run",
+    "predeploy": "ts-node scripts/check-deploy.ts",
+    "deploy": "vercel deploy --prod"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.7.4",
